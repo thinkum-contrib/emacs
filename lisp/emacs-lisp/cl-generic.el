@@ -107,6 +107,7 @@
 
 (eval-when-compile (require 'cl-lib))
 (eval-when-compile (require 'cl-macs))  ;For cl--find-class.
+(eval-when-compile (require 'cl))       ;For lexical-let
 (eval-when-compile (require 'pcase))
 (eval-when-compile (require 'subr-x))
 
